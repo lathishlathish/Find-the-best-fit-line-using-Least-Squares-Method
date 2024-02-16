@@ -34,7 +34,6 @@ for i in range(len(X)):
   num+=(X[i]-X_mean)*(Y[i]-Y_mean)
   denum+=(X[i]-X_mean)**2
 m=num/denum
-
 b=Y_mean - m*X_mean
 print(m)
 print(b)
